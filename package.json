@@ -1,0 +1,30 @@
+{
+  "name": "bandforband-agent-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal bandforband.fun trading agent: paste your key, run, edit strategy.ts.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandforbandfun/bandforband-agent-starter.git"
+  },
+  "homepage": "https://docs.bandforband.fun/agents/quickstart",
+  "scripts": {
+    "start": "tsx --env-file-if-exists=.env src/bot.ts",
+    "status": "tsx --env-file-if-exists=.env src/status.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@wagers/agent": "github:bandforbandfun/bandforband-sdk"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@types/node": "^24.0.0",
+    "eslint": "^9.30.0",
+    "tsx": "^4.20.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "^8.35.0"
+  }
+}
