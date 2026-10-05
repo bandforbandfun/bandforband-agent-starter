@@ -17,7 +17,7 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "@wagers/agent": "github:bandforbandfun/bandforband-sdk"
+    "@bandforband/agent": "github:bandforbandfun/bandforband-sdk"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.0",

@@ -1,4 +1,4 @@
-import { AgentClient, GAME_MODES, OPPONENTS, type GameMode, type Opponents } from '@wagers/agent'
+import { AgentClient, GAME_MODES, OPPONENTS, type GameMode, type Opponents } from '@bandforband/agent'
 
 function pick<T extends string>(name: string, allowed: readonly T[], fallback: T): T {
 	const raw = process.env[name]?.trim()

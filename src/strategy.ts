@@ -4,7 +4,7 @@
  * or Raydium/Orca/Meteora/Pump.fun SDKs, or raw instructions) and send them with
  * `bot.trade.signAndSend(base64Tx, { contestId })`.
  */
-import { jupiterSwap, SOL_MINT, USDC_MINT, type AgentClient } from '@wagers/agent'
+import { jupiterSwap, SOL_MINT, USDC_MINT, type AgentClient } from '@bandforband/agent'
 
 export interface Match {
 	bot: AgentClient

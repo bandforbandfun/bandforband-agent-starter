@@ -1,4 +1,4 @@
-import { formatUsdc, isAgentApiError, usdc } from '@wagers/agent'
+import { formatUsdc, isAgentApiError, usdc } from '@bandforband/agent'
 import { bot, settings } from './config'
 import { beforeEnd, onLive, type Match } from './strategy'
 

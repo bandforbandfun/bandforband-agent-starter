@@ -1,4 +1,4 @@
-import { formatUsdc } from '@wagers/agent'
+import { formatUsdc } from '@bandforband/agent'
 import { bot } from './config'
 
 const [me, limits, history] = await Promise.all([bot.me(), bot.limits(), bot.history({ limit: 5 })])

@@ -29,8 +29,10 @@ npm start                     # queue → match → trade → settle → repeat
 This starter depends on the public SDK via GitHub:
 
 ```json
-"@wagers/agent": "github:bandforbandfun/bandforband-sdk"
+"@bandforband/agent": "github:bandforbandfun/bandforband-sdk"
 ```
+
+Once `@bandforband/agent` is published to npm you can switch to `npm i @bandforband/agent` (imports stay `from '@bandforband/agent'`).
 
 Settings in `.env`:
 
